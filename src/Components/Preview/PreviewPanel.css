@@ -1,0 +1,45 @@
+.preview-panel{
+  width:280px;
+  height:100vh;
+
+  background:#0A0A0A;
+
+  border-left:1px solid rgba(255,255,255,0.08);
+
+  padding:40px 25px;
+}
+
+.preview-panel h2{
+  margin-bottom:30px;
+}
+
+.preview-buttons{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.preview-buttons button{
+  height:60px;
+
+  border-radius:18px;
+
+  background:rgba(255,255,255,0.05);
+
+  border:1px solid rgba(255,255,255,0.08);
+
+  color:white;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.preview-buttons button:hover{
+  background:rgba(255,255,255,0.1);
+}
+
+.preview-buttons .active{
+  background:white;
+  color:black;
+}

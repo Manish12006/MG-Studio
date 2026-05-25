@@ -1,0 +1,80 @@
+.editor{
+  flex:1;
+
+  display:flex;
+  flex-direction:column;
+}
+
+.editor-topbar{
+  width:100%;
+  height:80px;
+
+  border-bottom:1px solid rgba(255,255,255,0.08);
+
+  display:flex;
+  align-items:center;
+
+  padding:0 40px;
+}
+
+.editor-topbar h2{
+  font-size:1.2rem;
+  font-weight:500;
+}
+
+.editor-area{
+  flex:1;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.tshirt-container{
+  width:500px;
+  height:650px;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.tshirt{
+  width:400px;
+  height:520px;
+
+  background:white;
+
+  border-radius:30px;
+
+  position:relative;
+
+  box-shadow:
+  0 0 60px rgba(255,255,255,0.08);
+}
+
+.safe-area{
+  width:220px;
+  height:280px;
+
+  border:2px dashed rgba(0,0,0,0.25);
+
+  position:absolute;
+
+  top:110px;
+  left:50%;
+
+  transform:translateX(-50%);
+
+  border-radius:20px;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.safe-area p{
+  color:rgba(0,0,0,0.3);
+
+  letter-spacing:2px;
+}

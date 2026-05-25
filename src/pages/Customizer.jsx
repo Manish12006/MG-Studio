@@ -1,19 +1,23 @@
+import Toolbar from "../Components/Toolbar/Toolbar"
+import EditorCanvas from "../Components/Editor/EditorCanvas"
+import PreviewPanel from "../Components/Preview/PreviewPanel"
+
+import "./Customizer.css"
+
 function Customizer() {
+
   return (
-    <div
-      style={{
-        width: "100%",
-        height: "100vh",
-        background: "#050505",
-        color: "white",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        fontSize: "3rem",
-        letterSpacing: "4px"
-      }}
-    >
-      MG STUDIO EXPERIENCE
+    <div className="customizer">
+
+      {/* LEFT TOOLBAR */}
+      <Toolbar />
+
+      {/* MAIN EDITOR */}
+      <EditorCanvas />
+
+      {/* RIGHT PANEL */}
+      <PreviewPanel />
+
     </div>
   )
 }
